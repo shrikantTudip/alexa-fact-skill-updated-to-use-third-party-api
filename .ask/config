@@ -1,0 +1,62 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.4cad8955-599e-4a9e-9edd-a53f50535da5",
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "61dbd4ce3ba68428cf6d0b52cbe1f30d"
+        },
+        "interactionModel": {
+          "de-DE": {
+            "eTag": "4ef7c4c4b5cb6283f2ac540b15552770"
+          },
+          "en-AU": {
+            "eTag": "1c25fe145b8545f1e67fdd3f8bceffb7"
+          },
+          "en-GB": {
+            "eTag": "1c25fe145b8545f1e67fdd3f8bceffb7"
+          },
+          "en-CA": {
+            "eTag": "1c25fe145b8545f1e67fdd3f8bceffb7"
+          },
+          "en-US": {
+            "eTag": "1c25fe145b8545f1e67fdd3f8bceffb7"
+          },
+          "en-IN": {
+            "eTag": "1c25fe145b8545f1e67fdd3f8bceffb7"
+          },
+          "es-MX": {
+            "eTag": "d0cb7fca5d72a175970099fedd2537b3"
+          },
+          "it-IT": {
+            "eTag": "9ecdba03f312ca3dc77986a3949c51ab"
+          },
+          "es-ES": {
+            "eTag": "d0cb7fca5d72a175970099fedd2537b3"
+          },
+          "ja-JP": {
+            "eTag": "270d64f378e5a0c38795a6ad67d764a8"
+          },
+          "fr-FR": {
+            "eTag": "bcc4db75e7dcda76e829b79e66148869"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:005936521588:function:ask-custom-fact-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-fact-default",
+            "handler": "index.handler",
+            "revisionId": "8b208720-329b-475a-8bbc-5d092be4c476",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}
